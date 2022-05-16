@@ -1,6 +1,7 @@
 import React from 'react'
 import ChatBody from './ChatBody'
 import ChatSideBar from './ChatSideBar'
+
 const Chat = () => {
     return (
         <div className='flex border shadow-md rounded-md ' style={{ height: 'calc(100vh - 100px)' }}>
