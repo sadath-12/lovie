@@ -3,7 +3,7 @@ import VendorLayout from '../../components/layout/VendorLayout';
 import VendorStore from '../../components/layout/VendorStore';
 import VendorBar from '../../components/navigation/VendorBar/VendorBar';
 import Image from 'next/image'
-import image from '../../../public/imageFirst.png'
+// import image from '../../../public/imageFirst.png'
 import {BsFacebook} from 'react-icons/bs'
 import {FaInstagram} from 'react-icons/fa'
 import {BsTwitter} from 'react-icons/bs'
@@ -29,7 +29,7 @@ const StoreProfile = () => {
 
 
 <div className='flex-0.5 flex justify-center items-center flex-col space-y-4'>
-    <Image src={image} />
+    {/* <Image src={image} /> */}
     <button className='font-bold bg-[#5B8B76] text-white text-xs px-3 py-2 rounded-lg'>Upload a Store Image</button>
 </div>
 
