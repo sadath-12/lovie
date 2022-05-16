@@ -1,6 +1,6 @@
 import React from 'react'
 import SidebarListItem from './SidebarListItem'
-const chatSideBar = () => {
+const ChatSideBar = () => {
     return (
         <div style={{
             height: 'inherit',
@@ -29,8 +29,8 @@ const chatSideBar = () => {
                 <SidebarListItem />
                 <SidebarListItem />
             </div>
-        </div >
+        </div>
     )
 }
 
-export default chatSideBar
+export default ChatSideBar
